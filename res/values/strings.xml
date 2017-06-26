@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Police Station Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_btn_find">Find</string>
+	
+	<string-array name="place_type">
+        <item>police</item>
+        
+        
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Police Station</item>
+        
+        
+    </string-array>
+	
+	
+
+</resources>

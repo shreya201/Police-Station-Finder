@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B56F5"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+   
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/marker" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="YOU ARE AT"
+        android:textColor="#FAFAFC"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView1"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="#FAFAFC"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblLocation"
+        android:layout_centerHorizontal="true"
+        android:text="GET MY LOCATION"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnViewLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="NEXT>>"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
